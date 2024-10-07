@@ -1,0 +1,6 @@
+transformers == 4.45.1
+pandas == 2.2.3
+numpy == 2.1.2
+bs4 == 0.0.2
+scikit-learn == 1.5.2
+datasets == 3.0.1

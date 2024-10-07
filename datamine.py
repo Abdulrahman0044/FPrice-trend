@@ -34,7 +34,7 @@ pages = [
 # Open CSV for writing the data
 with open('farm_terms.csv', mode='w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
-    writer.writerow(['Term'])
+    writer.writerow(['Term', 'Description'])
 
     # Loop through all pages
     for page in pages:
