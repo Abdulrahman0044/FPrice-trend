@@ -1,0 +1,17 @@
+# Virtual environment
+myenv
+
+# model
+MarketTrend_model
+
+# model tokens
+ModelTokenizer
+
+# training results
+results
+
+# byte-compiled files
+__pycache__
+
+# virtual environment
+myenv
