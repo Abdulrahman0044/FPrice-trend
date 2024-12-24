@@ -13,5 +13,5 @@ results
 # byte-compiled files
 __pycache__
 
-# virtual environment
-myenv
+# environment variables
+.env

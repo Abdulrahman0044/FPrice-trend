@@ -1,8 +1,12 @@
 import requests
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+api_key = os.getenv("API_KEY")
 
 # Simulate or use an actual API endpoint for fetching real-time market prices
 api_url = "https://marsapi.ams.usda.gov/services/v1.2/reports/1095"
-api_key = "0vgoHqEhtTYnUG82gqz6qr7OgXjixy+b"
 
 response = requests.get(api_url, headers={"Authorization": f"Bearer {api_key}"})
 print(response.status_code)
